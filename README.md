@@ -37,7 +37,7 @@ Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kela
    
    
    
-3. public final void tambahBarang() Metode ini memungkinkan pengguna untuk menambahkan barang ke daftar. Pengguna diminta untuk memasukkan ID, nama, kategori, dan harga barang, dan kemudian barang tersebut ditambahkan ke dalam daftar.
+3.) public final void tambahBarang() Metode ini memungkinkan pengguna untuk menambahkan barang ke daftar. Pengguna diminta untuk memasukkan ID, nama, kategori, dan harga barang, dan kemudian barang tersebut ditambahkan ke dalam daftar.
 
    <img width="410" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/cadbd41d-1342-446e-8b14-2d1203f89e70">   
 
@@ -46,7 +46,7 @@ Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kela
    
    
    
-4. public final void lihatDaftarBarang() Metode ini digunakan untuk menampilkan daftar barang yang ada dalam program. Jika daftar kosong, program mencetak pesan yang sesuai, jika tidak, mencetak daftar barang.
+4.) public final void lihatDaftarBarang() Metode ini digunakan untuk menampilkan daftar barang yang ada dalam program. Jika daftar kosong, program mencetak pesan yang sesuai, jika tidak, mencetak daftar barang.
 
    <img width="354" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/97a700ee-ecf1-4b2f-8895-1275c36d1098">
 
@@ -56,7 +56,7 @@ Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kela
    
    
    
-5. public final void cariBarang() Metode ini memungkinkan pengguna untuk mencari barang berdasarkan nama. Jika barang dengan nama yang sesuai ditemukan, informasinya ditampilkan
+5.) public final void cariBarang() Metode ini memungkinkan pengguna untuk mencari barang berdasarkan nama. Jika barang dengan nama yang sesuai ditemukan, informasinya ditampilkan
 
    <img width="408" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/50528233-5b15-41e1-9da6-e4161575d378">
 
