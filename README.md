@@ -6,19 +6,19 @@ Pada Post Test 2 PBO kali ini saya mengambil tema yaitu "Indomaret" dimana pengg
 
 Program ini memiliki beberapa method dan digunakan untuk mengelola daftar barang di toko. Berikut adalah penjelasan singkat mengenai codingan ini dan method yang digunakan:
 
-1. **Import Statements (Impor)**: Pada awal program, terdapat pernyataan impor yang mengimpor kelas-kelas yang diperlukan, seperti `Indomaret`, `ArrayList`, `Iterator`, dan `Scanner`.
+1. **Import Statements (Impor)**: Pada awal program, terdapat pernyataan impor yang mengimpor kelas-kelas yang diperlukan, seperti Indomaret, ArrayList, Iterator, dan Scanner.
 
-2. **Deklarasi Kelas (Class Declaration)**: Kelas `PostTest2` dideklarasikan sebagai kelas terakhir (final), yang berarti kelas ini tidak dapat diwariskan.
+2. **Deklarasi Kelas (Class Declaration)**: Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kelas ini tidak dapat diwariskan.
 
 3. **Variabel Anggota (Instance Variables)**:
-   - `private final ArrayList<Indomaret> daftarBarang`: Ini adalah ArrayList yang digunakan untuk menyimpan daftar barang dari kelas `Indomaret`.
-   - `private Scanner scanner`: Ini adalah objek `Scanner` yang digunakan untuk mengambil masukan dari pengguna.
+   - private final ArrayList<Indomaret> daftarBarang: Ini adalah ArrayList yang digunakan untuk menyimpan daftar barang dari kelas `Indomaret`.
+   - private Scanner scanner: Ini adalah objek Scanner yang digunakan untuk mengambil masukan dari pengguna.
 
-4. **Metode Utama (Main Method)**: Metode `main` adalah titik masuk utama program. Ketika program dijalankan, objek `PostTest2` dibuat, dan metode `runMenu()` dipanggil untuk memulai eksekusi program.
+4. **Metode Utama (Main Method)**: Metode main adalah titik masuk utama program. Ketika program dijalankan, objek PostTest2 dibuat, dan metode runMenu() dipanggil untuk memulai eksekusi program.
 
-5. **Metode `runMenu()`**: Metode ini adalah metode yang mengelola menu utama program. Pengguna dapat memilih tindakan yang ingin dilakukan dengan memasukkan nomor pilihan. Ini menggunakan struktur `switch-case` untuk memproses pilihan pengguna.
+5. **Metode runMenu()**: Metode ini adalah metode yang mengelola menu utama program. Pengguna dapat memilih tindakan yang ingin dilakukan dengan memasukkan nomor pilihan. Ini menggunakan struktur switch-case untuk memproses pilihan pengguna.
 
-6. **Metode `lihatDaftarBarang()`**: Metode ini digunakan untuk menampilkan daftar barang yang ada dalam `daftarBarang`. Jika daftar kosong, akan mencetak pesan yang sesuai.
+6. **Metode `lihatDaftarBarang()`**: Metode ini digunakan untuk menampilkan daftar barang yang ada dalam daftarBarang. Jika daftar kosong, akan mencetak pesan yang sesuai.
 
 7. **Metode `cariBarang()`**: Metode ini memungkinkan pengguna mencari barang berdasarkan nama. Hasil pencarian akan ditampilkan jika barang ditemukan.
 
