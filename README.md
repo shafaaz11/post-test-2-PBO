@@ -51,9 +51,11 @@ Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kela
 
    <img width="481" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/ebdc39c8-4b4b-4806-b459-824c31cd840e">
    
+
    
 **7. Looping**
-   Terdapat looping while yang digunakan dalam metode runMenu() untuk membuat menu utama program tetap berjalan hingga pengguna memilih untuk keluar.
+
+Terdapat looping while yang digunakan dalam metode runMenu() untuk membuat menu utama program tetap berjalan hingga pengguna memilih untuk keluar.
    
    <img width="344" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/10a88720-661e-4bda-ae5d-e79b6f2c105a">
    
