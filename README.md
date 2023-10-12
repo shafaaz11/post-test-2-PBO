@@ -38,9 +38,8 @@ tambahan, pada menu ini jika Nama, Kategori, dan Harga diubah maka akan menampil
 Menu ini user diminta untuk memasukkan nama barang yang ingin diupdate. Jika nama barang cocok dengan salah satu barang dalam daftar, pengguna diminta untuk memasukkan nama, kategori, dan harga baru. Kemudian, program akan mengupdate barang dengan nilai-nilai baru tersebut dan memberikan pesan "Barang berhasil diupdate!" Jika barang tidak ditemukan, program akan memberikan pesan "Barang tidak ditemukan."
 5. Hapus Barang
 Menu ini user diminta untuk memasukkan nama barang yang ingin dihapus. Jika barang dengan nama yang cocok ditemukan dalam daftar, program akan menghapusnya dan memberikan pesan "Barang berhasil dihapus!".
-
-
-  # 6. Keluar 
+6. Keluar 
 Jika user memilih menu ini maka akan mengakhiri program dan akan mencetak pesan "Terima kasih!".
+
 
 Itu adalah penjelasan singkat cara kerja dari program dengan tema Indomaret. Output yang dihasilkan oleh program akan bergantung pada menu operasi yang dipilih oleh pengguna. 
