@@ -72,9 +72,15 @@ Cara menggunakan program ini sangat sederhana dan berpusat pada menu yang disedi
 Menu ini meminta user untuk memasukkan ID, Nama, Kategori, dan Harga barang yang ingin ditambahkan. Dimana ID dan Harga yang di input harus berupa angka karena memakai tipe data int, kemudian Nama dan Kategori berupa string. Setelah data barang diinput oleh user program akan memberikan pesan "Barang berhasil ditambahkan!"
 <img width="206" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/20ece851-ed3a-45b8-88aa-b8cb3f5354a0">
 
+
+
+
 2. Lihat Daftar Barang 
 Pada menu ini user dapat melihat daftar nama barang yang telah di input. Jika daftar barang tidak kosong, program akan menampilkan semua barang yang ada dalam daftar. Namun jika daftar kosong, program akan mencetak "Daftar Barang Tidak Ada."
 <img width="334" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/e009fdc2-76bc-4f2d-a24a-ed18b137f3d0">
+
+
+
 
 3. Cari Barang 
 Menu ini meminta user untuk memasukkan nama barang yang ingin dicari. Jika barang dengan nama yang sesuai ditemukan dalam daftar, program akan mencetak detail barang tersebut. Jika tidak ditemukan, program akan memberikan pesan "Barang tidak ditemukan."
