@@ -11,20 +11,20 @@ Program ini memiliki beberapa method dan digunakan untuk mengelola daftar barang
 2. **Deklarasi Kelas (Class Declaration)**: Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kelas ini tidak dapat diwariskan.
 
 3. **Variabel Anggota (Instance Variables)**:
-   - private final ArrayList<Indomaret> daftarBarang: Ini adalah ArrayList yang digunakan untuk menyimpan daftar barang dari kelas `Indomaret`.
+   - private final ArrayList<Indomaret> daftarBarang: Ini adalah ArrayList yang digunakan untuk menyimpan daftar barang dari kelas Indomaret.
    - private Scanner scanner: Ini adalah objek Scanner yang digunakan untuk mengambil masukan dari pengguna.
 
 4. **Metode Utama (Main Method)**: Metode main adalah titik masuk utama program. Ketika program dijalankan, objek PostTest2 dibuat, dan metode runMenu() dipanggil untuk memulai eksekusi program.
 
 5. **Metode runMenu()**: Metode ini adalah metode yang mengelola menu utama program. Pengguna dapat memilih tindakan yang ingin dilakukan dengan memasukkan nomor pilihan. Ini menggunakan struktur switch-case untuk memproses pilihan pengguna.
 
-6. **Metode `lihatDaftarBarang()`**: Metode ini digunakan untuk menampilkan daftar barang yang ada dalam daftarBarang. Jika daftar kosong, akan mencetak pesan yang sesuai.
+6. **Metode lihatDaftarBarang()**: Metode ini digunakan untuk menampilkan daftar barang yang ada dalam daftarBarang. Jika daftar kosong, akan mencetak pesan yang sesuai.
 
-7. **Metode `cariBarang()`**: Metode ini memungkinkan pengguna mencari barang berdasarkan nama. Hasil pencarian akan ditampilkan jika barang ditemukan.
+7. **Metode cariBarang()**: Metode ini memungkinkan pengguna mencari barang berdasarkan nama. Hasil pencarian akan ditampilkan jika barang ditemukan.
 
-8. **Metode `updateBarang()`**: Metode ini memungkinkan pengguna memperbarui informasi barang berdasarkan nama. Jika barang ditemukan, pengguna diminta memasukkan informasi baru, dan barang akan diperbarui.
+8. **Metode updateBarang()**: Metode ini memungkinkan pengguna memperbarui informasi barang berdasarkan nama. Jika barang ditemukan, pengguna diminta memasukkan informasi baru, dan barang akan diperbarui.
 
-9. **Metode `hapusBarang()`**: Metode ini memungkinkan pengguna menghapus barang berdasarkan nama. Jika barang ditemukan, barang tersebut akan dihapus dari daftar.
+9. **Metode hapusBarang()**: Metode ini memungkinkan pengguna menghapus barang berdasarkan nama. Jika barang ditemukan, barang tersebut akan dihapus dari daftar.
 
 # Penjelasan Output Program
 1. Tambah Barang 
