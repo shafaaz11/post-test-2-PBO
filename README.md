@@ -8,13 +8,16 @@ Program ini memiliki beberapa method, properti, dan lain lain yang digunakan unt
    1. **Import Statements (Impor)**
 <img width="189" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/34cddc4b-2ed9-47b4-b0c9-1570983cc644">
 Pada awal program, terdapat pernyataan impor yang mengimpor kelas-kelas yang diperlukan, seperti Indomaret, ArrayList, Iterator, dan Scanner.
+
    2. **Deklarasi Kelas (Class Declaration)**
 <img width="246" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/fb13e1f5-c70f-450d-9494-8f51596c1751">
 Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kelas ini tidak dapat diwariskan.
+
    3. **Properties**
 <img width="425" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/68469de8-9670-4090-8194-b571bdd023fa">
    - private final ArrayList<Indomaret> daftarBarang: Properti ini adalah ArrayList yang digunakan untuk menyimpan daftar barang. Ini adalah struktur data tempat semua barang disimpan.
    - private final Scanner scanner: Properti ini adalah objek Scanner yang digunakan untuk mengambil masukan dari pengguna melalui keyboard.
+
    4. **Methods**
       1. public final static void main(String[] args): Metode main adalah titik masuk utama program. Ini digunakan untuk membuat objek PostTest2 dan memulai eksekusi program dengan memanggil metode runMenu()
 <img width="330" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/747dd926-b105-4a17-8aa0-870196933eca">
@@ -30,9 +33,11 @@ Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kela
 <img width="704" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/1e954741-c1ca-419d-bfc9-f439c19fa32f">
       7. public final void hapusBarang(): Metode ini memungkinkan pengguna menghapus barang dari daftar berdasarkan nama. Jika barang ditemukan, metode ini akan menghapusnya dari daftar.
 <img width="481" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/ebdc39c8-4b4b-4806-b459-824c31cd840e">
+
    6. **Looping**
 Terdapat looping while yang digunakan dalam metode runMenu() untuk membuat menu utama program tetap berjalan hingga pengguna memilih untuk keluar.
 <img width="344" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/10a88720-661e-4bda-ae5d-e79b6f2c105a">
+
    7. **Iterasi (Iteration)**
 - Terdapat penggunaan for-each loop dalam metode lihatDaftarBarang() untuk  menampilkan semua barang dalam daftar.
 - Terdapat penggunaan iterator dalam metode hapusBarang() untuk menghapus   barang dari daftar saat ditemukan.
