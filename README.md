@@ -6,25 +6,39 @@ Pada Post Test 2 PBO kali ini saya mengambil tema yaitu "Indomaret" dimana pengg
 
 Program ini memiliki beberapa method dan digunakan untuk mengelola daftar barang di toko. Berikut adalah penjelasan singkat mengenai codingan ini dan method yang digunakan:
 
-1. **Import Statements (Impor)**: Pada awal program, terdapat pernyataan impor yang mengimpor kelas-kelas yang diperlukan, seperti Indomaret, ArrayList, Iterator, dan Scanner.
+   1. **Import Statements (Impor)**
+<img width="189" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/34cddc4b-2ed9-47b4-b0c9-1570983cc644">
 
-2. **Deklarasi Kelas (Class Declaration)**: Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kelas ini tidak dapat diwariskan.
+Pada awal program, terdapat pernyataan impor yang mengimpor kelas-kelas yang diperlukan, seperti Indomaret, ArrayList, Iterator, dan Scanner.
 
-3. **Variabel Anggota (Instance Variables)**:
+   3. **Deklarasi Kelas (Class Declaration)**
+<img width="246" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/fb13e1f5-c70f-450d-9494-8f51596c1751">
+
+Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kelas ini tidak dapat diwariskan.
+
+   5. **Variabel Anggota (Instance Variables)**
+<img width="421" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/1de69500-436c-4037-aee7-7502bac8424a">
+
    - private final ArrayList<Indomaret> daftarBarang: Ini adalah ArrayList yang digunakan untuk menyimpan daftar barang dari kelas Indomaret.
    - private Scanner scanner: Ini adalah objek Scanner yang digunakan untuk mengambil masukan dari pengguna.
 
-4. **Metode Utama (Main Method)**: Metode main adalah titik masuk utama program. Ketika program dijalankan, objek PostTest2 dibuat, dan metode runMenu() dipanggil untuk memulai eksekusi program.
+   7. **Metode Utama (Main Method)**
+<img width="392" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/c41448e6-53de-467c-9f91-c03fe985e744">
 
-5. **Metode runMenu()**: Metode ini adalah metode yang mengelola menu utama program. Pengguna dapat memilih tindakan yang ingin dilakukan dengan memasukkan nomor pilihan. Ini menggunakan struktur switch-case untuk memproses pilihan pengguna.
+Metode main adalah titik masuk utama program. Ketika program dijalankan, objek PostTest2 dibuat, dan metode runMenu() dipanggil untuk memulai eksekusi program.
 
-6. **Metode lihatDaftarBarang()**: Metode ini digunakan untuk menampilkan daftar barang yang ada dalam daftarBarang. Jika daftar kosong, akan mencetak pesan yang sesuai.
+   9. **Metode runMenu()**
+<img width="531" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/ed48d221-c409-4638-b468-1cf2b71a07fa">
 
-7. **Metode cariBarang()**: Metode ini memungkinkan pengguna mencari barang berdasarkan nama. Hasil pencarian akan ditampilkan jika barang ditemukan.
+Metode ini adalah metode yang mengelola menu utama program. Pengguna dapat memilih tindakan yang ingin dilakukan dengan memasukkan nomor pilihan. Ini menggunakan struktur switch-case untuk memproses pilihan pengguna.
 
-8. **Metode updateBarang()**: Metode ini memungkinkan pengguna memperbarui informasi barang berdasarkan nama. Jika barang ditemukan, pengguna diminta memasukkan informasi baru, dan barang akan diperbarui.
+11. **Metode lihatDaftarBarang()**: Metode ini digunakan untuk menampilkan daftar barang yang ada dalam daftarBarang. Jika daftar kosong, akan mencetak pesan yang sesuai.
 
-9. **Metode hapusBarang()**: Metode ini memungkinkan pengguna menghapus barang berdasarkan nama. Jika barang ditemukan, barang tersebut akan dihapus dari daftar.
+12. **Metode cariBarang()**: Metode ini memungkinkan pengguna mencari barang berdasarkan nama. Hasil pencarian akan ditampilkan jika barang ditemukan.
+
+13. **Metode updateBarang()**: Metode ini memungkinkan pengguna memperbarui informasi barang berdasarkan nama. Jika barang ditemukan, pengguna diminta memasukkan informasi baru, dan barang akan diperbarui.
+
+14. **Metode hapusBarang()**: Metode ini memungkinkan pengguna menghapus barang berdasarkan nama. Jika barang ditemukan, barang tersebut akan dihapus dari daftar.
 
 # Penjelasan Output Program
 1. Tambah Barang 
