@@ -29,58 +29,32 @@ Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kela
 
 2.) public final void runMenu() Metode ini mengatur menu utama program dan mengarahkan aliran eksekusi berdasarkan pilihan pengguna. Ini menggunakan struktur switch-case untuk menangani pilihan pengguna.
 
-   <img width="358" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/95969897-ab51-4938-9241-57edfbfdfaa3">   
-
-   
-   
-   
-   
-   
+   <img width="358" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/95969897-ab51-4938-9241-57edfbfdfaa3">    
    
 3.) public final void tambahBarang() Metode ini memungkinkan pengguna untuk menambahkan barang ke daftar. Pengguna diminta untuk memasukkan ID, nama, kategori, dan harga barang, dan kemudian barang tersebut ditambahkan ke dalam daftar.
 
    <img width="410" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/cadbd41d-1342-446e-8b14-2d1203f89e70">   
-
-   
-   
-   
-   
    
 4.) public final void lihatDaftarBarang() Metode ini digunakan untuk menampilkan daftar barang yang ada dalam program. Jika daftar kosong, program mencetak pesan yang sesuai, jika tidak, mencetak daftar barang.
 
-   <img width="354" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/97a700ee-ecf1-4b2f-8895-1275c36d1098">
-
-
-
-
-   
-   
+   <img width="354" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/97a700ee-ecf1-4b2f-8895-1275c36d1098">  
    
 5.) public final void cariBarang() Metode ini memungkinkan pengguna untuk mencari barang berdasarkan nama. Jika barang dengan nama yang sesuai ditemukan, informasinya ditampilkan
 
    <img width="408" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/50528233-5b15-41e1-9da6-e4161575d378">
-
-
-
-
-
-
-   
-   
-   
-**5. public final void updateBarang()** Metode ini memungkinkan pengguna memperbarui informasi barang dalam daftar. Pengguna diminta untuk memasukkan nama barang yang akan diupdate, dan jika barang tersebut ditemukan, informasi baru (nama baru, kategori baru, dan harga baru) dimasukkan.
+  
+6.) public final void updateBarang() Metode ini memungkinkan pengguna memperbarui informasi barang dalam daftar. Pengguna diminta untuk memasukkan nama barang yang akan diupdate, dan jika barang tersebut ditemukan, informasi baru (nama baru, kategori baru, dan harga baru) dimasukkan.
 
    <img width="704" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/1e954741-c1ca-419d-bfc9-f439c19fa32f">
    
-   
-   
-**6. public final void hapusBarang()** Metode ini memungkinkan pengguna menghapus barang dari daftar berdasarkan nama. Jika barang ditemukan, metode ini akan menghapusnya dari daftar.
+7.) public final void hapusBarang() Metode ini memungkinkan pengguna menghapus barang dari daftar berdasarkan nama. Jika barang ditemukan, metode ini akan menghapusnya dari daftar.
 
    <img width="481" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/ebdc39c8-4b4b-4806-b459-824c31cd840e">
    
    
 **7. Looping**
    Terdapat looping while yang digunakan dalam metode runMenu() untuk membuat menu utama program tetap berjalan hingga pengguna memilih untuk keluar.
+   
    <img width="344" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/10a88720-661e-4bda-ae5d-e79b6f2c105a">
    
 **8. Iterasi (Iteration)**
