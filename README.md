@@ -22,7 +22,8 @@ Kelas PostTest2 dideklarasikan sebagai kelas terakhir (final), yang berarti kela
    - private final Scanner scanner: Properti ini adalah objek Scanner yang digunakan untuk mengambil masukan dari pengguna melalui keyboard.
 
    4. **Methods**
-      1. public final static void main(String[] args): Metode main adalah titik masuk utama program. Ini digunakan untuk membuat objek PostTest2 dan memulai eksekusi program dengan memanggil metode runMenu()
+      1. public final static void main(String[] args) Metode main adalah titik masuk utama program. Ini digunakan untuk membuat objek PostTest2 dan memulai eksekusi program dengan memanggil metode runMenu()
+
 <img width="330" alt="image" src="https://github.com/shafaaz11/post-test-2-PBO/assets/127502125/747dd926-b105-4a17-8aa0-870196933eca">
 
       2. public final void runMenu(): Metode ini mengatur menu utama program dan mengarahkan aliran eksekusi berdasarkan pilihan pengguna. Ini menggunakan struktur switch-case untuk menangani pilihan pengguna.
